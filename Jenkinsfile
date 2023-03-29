@@ -2,7 +2,7 @@ node {
      stage('HTTP Request') {
 
                 sh '''
-                    curl -X GET "https://api.example.com/data" \
+                    curl -X GET "https://google.com" \
                          -H "Content-Type: application/json" \
                          -o output.json
                 '''
