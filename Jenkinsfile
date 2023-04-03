@@ -12,6 +12,8 @@ node {
     }
 
     stage('npm Install') {
-        sh 'npm install'
+        nodejs() {
+                    sh 'npm install'
+                }
     }
 }
