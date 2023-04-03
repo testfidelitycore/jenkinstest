@@ -12,7 +12,7 @@ node {
     }
 
     stage('npm Install') {
-        nodejs() {
+        nodejs(nodeJSInstallationName: 'node1') {
                     sh 'npm install'
                 }
     }
